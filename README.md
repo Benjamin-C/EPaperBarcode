@@ -3,6 +3,8 @@ This project creates [Code128B](https://en.wikipedia.org/wiki/Code_128) Barcodes
 
 This uses the [Adafruit 2.13" HD Tri-Color eInk / ePaper Display FeatherWing - 250x122 RW Panel with SSD1680](https://www.adafruit.com/product/4814) along with an [Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3405)
 
+![A barcode on a display](https://raw.githubusercontent.com/Benjamin-C/EPaperBarcode/main/demo.jpg)
+
 ### Usage
 Simply send a string of < 17 characters over serial at 115200 baud, and a barcode will be generated and displayed on the screen.
 
